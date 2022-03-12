@@ -1,0 +1,90 @@
+html,
+body,
+#root {
+  height: 100%;
+  font-family: "Raleway", Arial, "Times New Roman", Times, sans-serif;
+  /* color-scheme: white ; */
+}
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 50px auto 50px;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 15px 10px -15px #111;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 1;
+}
+.content {
+}
+.footer {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#color1 {
+  background-color: black;
+}
+#color2 {
+  background-color: #ac7bae;
+}
+#color3 {
+  background-color: #305fec;
+}
+#color4 {
+  background-color: #6ca7ba;
+}
+#color5 {
+  background-color: #e5a3a1;
+}
+#color6 {
+  background-color: #9b9b9b;
+}
+#color7 {
+  background-color: #ef943a;
+}
+#color8 {
+  background-color: #acb75a;
+}
+#color9 {
+  background-color: #2f527b;
+}
+
+.fontFamily1 {
+  font-family: Georgia;
+}
+.fontFamily2 {
+    font-family: 'Ubuntu';
+}
+.fontFamily3 {
+    font-family: 'Montserrat';
+}
+.fontFamily4 {
+    font-family: 'Source Sans Pro';
+}
+.fontFamily5 {
+    font-family: 'Hind';
+}
+.fontFamily6 {
+  font-family: 'Times New Roman';
+}
+
+.font1 {
+  font-size: small;
+}
+.font2 {
+  font-size: medium;
+}
+.font3 {
+  font-size: large;
+}
+Link{
+  cursor: pointer;
+}

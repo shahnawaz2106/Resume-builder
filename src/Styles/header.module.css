@@ -1,0 +1,16 @@
+.logo{
+    margin-right: auto;
+}
+.contents{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.logoutBtn{
+    background-color: inherit;
+    border: none;
+    font-size: 16px;
+    color: #03BEDE;
+    font-weight: 700;
+    cursor: pointer;
+}

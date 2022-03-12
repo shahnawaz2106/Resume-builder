@@ -1,0 +1,104 @@
+.container{
+    width: 500px;
+    padding: 10px;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    margin:10px auto;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input{
+    height: 40px;
+    width: 100%;
+    padding: 5px 6px 10px;
+    /* text-align: right; */
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder { text-align:right; }
+
+.heading{
+    text-align: center;
+}
+.about{
+    font-size: 28px;
+    font-weight: 800;
+    margin: 20px 0px 7px;
+}
+label{
+    /* margin: ; */
+}
+.checkBox{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkBox >input{
+    width:15px;
+}
+.emails{
+    display: flex;
+}
+.saveBtn{
+    background: #8cc53e;
+    color: white;
+    height: 50px;
+    width:400PX;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    
+}
+.link{
+    text-decoration: none;
+    color: #03ACBB;
+}
+.number{
+    margin: auto 2px ;
+}
+.back{
+    text-decoration: none;
+    margin: 10px ;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.content{
+    margin: 12px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
